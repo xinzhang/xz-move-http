@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:xz_http/http_helper.dart';
-import 'package:xz_http/movie_detail.dart';
+import 'package:movie_http/http_helper.dart';
+import 'package:movie_http/movie_detail.dart';
 
 class MovieList extends StatefulWidget {
   @override

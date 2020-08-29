@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import "package:http/http.dart" as http;
-import 'package:xz_http/movie.dart';
+import 'package:movie_http/movie.dart';
 
 class HttpHelper {
   final String urlKey = 'api_key=2d24dc7249549ca040620a610a502cdb';

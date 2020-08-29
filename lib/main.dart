@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:xz_http/movie_list.dart';
+import 'package:movie_http/movie_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Movies db',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         // This makes the visual density adapt to the platform that you run
